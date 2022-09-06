@@ -1,9 +1,12 @@
+import Header from "./Header"
+import Footer from "./Footer"
 const layout =({children})=>{
   return(
     <>
-    <header/>
+    <Header/>
     {children}
-    <footer/>
+    <Footer/>
     </>
   )
 }
+export default layout;

@@ -1,7 +1,9 @@
 import Head from "next/head";
+import Layout from "../components/Layout.jsx";
 
 export default function Home() {
   return (
+    <Layout>
       <div>
         <Head>
           <title>FUDO</title>
@@ -13,6 +15,7 @@ export default function Home() {
           <h1>Subscribe Zainkeepscode</h1>        
         </main>
       </div>
+    </Layout>
   );
 }
 
